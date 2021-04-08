@@ -1,0 +1,158 @@
+@font-face {
+  font-family: "Gilroy";
+  src:  url('font/Gilroy-Light.otf');
+}
+@font-face {
+  font-family: "header_font";
+  src:  url('font/SF Juggernaut Condensed.ttf');
+}
+a{
+  color: #fff;
+  text-decoration: none;
+  font-family: "Gilroy";
+}
+hr{
+  width: 6%;
+  border-top: dotted #aab2bd 10px;
+}
+.header{
+  background-color: #0f424c;
+  padding: 15px;
+}
+.header_links{
+  float: right;
+  word-spacing: 30px;
+  margin: 5px 50px 0 30px;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: lighter;
+}
+.logo{
+  width: 12%;
+  margin-left: 30px;
+}
+.body{
+  background-color: #ff4c68;
+  padding: 7% 0 4% 10%;
+}
+
+.title{
+  font-family: "Header_font";
+  font-size: 60px;
+  color: #fff;
+  text-decoration: underline;
+}
+.description{
+  font-family: "Gilroy";
+  font-size: 40px;
+  color: #333;
+  font-weight: 400;
+}
+.pro_pic{
+  float: right;
+  width: 37%;
+  margin: 0 70px 0 0;
+}
+
+.slogan{
+  font-family: "Gilroy";
+  font-size: 20px;
+  color: #fff;
+  margin: 7% 0 0 38%;
+}
+
+.author{
+  width: 20%;
+  margin-left: 40%;
+}
+.second_body{
+  margin: 2% 18%;
+}
+.second_body_header{
+  font-family: exo;
+  color: #c70039;
+  text-align: center;
+  text-decoration: underline;
+}
+.devicon{
+  width: 12%;
+  float: right;
+  margin: 3.5% 25% 0 0;
+}
+.football_icon{
+  width: 15%;
+  float: left;
+  margin: 20px 0 0 150px;
+}
+.webdev{
+  font-family: "Gilroy";
+}
+.webdv_header{
+  font-family: "Gilroy";
+}
+.football{
+  text-align: right;
+  font-family: "Gilroy";
+}
+.football_header{
+  text-align: right;
+  font-family: "Gilroy";
+}
+.footer{
+  background-color: #333;
+  margin: 5px 60px 10px 60px;
+}
+.contact{
+  float: right;
+  word-spacing: 15px;
+  padding: 2% 15% 0 0;
+  border-left: dotted white 3px;
+  padding-left: 15%;
+  border-width: 6px;
+}
+.facebook{
+  transition: 1s;
+}
+.facebook:hover{
+  text-decoration: underline;
+}
+.youtube{
+  transition: 1s;
+}
+.youtube:hover{
+  text-decoration: underline;
+}
+.telegram{
+  transition: 1s;
+}
+.telegram:hover{
+  text-decoration: underline;
+}
+.copyright{
+  font-family: "Gilroy";
+  color: #fff;
+  padding: 2% 0 0 14%;
+}
+.socialmedia{
+  color: #fff;
+  float: right;
+  line-height: 3;
+  word-spacing: normal;
+  font-family: verdana;
+  margin-right: 40px;
+  font-weight: bold;
+}
+.email{
+  background-color: #48cfad;
+  border: solid #333;
+  padding: 10px 25px;
+  position: relative;
+  bottom: 90px;
+  left: 44%;
+}
+.email:hover{
+  transition: .5s;
+  border: solid #37bc9b;
+  background-color: #333;
+  transform: scaleX(2);
+}
